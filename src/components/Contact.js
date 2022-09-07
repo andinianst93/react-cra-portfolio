@@ -12,12 +12,10 @@ const Contact = () => {
             <div className='underline'></div>
           </div>
           <p className='text'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non qui
-            quam exercitationem consequuntur facere hic magni voluptatum animi
-            maiores corporis. Consectetur eaque sed perferendis numquam
-            accusamus facere magni cumque odit?
+            Ingin bekerja sama, ngobrol, atau diskusi banyak hal terkait SEO dan
+            website? Bisa langsung menghubungi saya lewat email atau media
+            sosial. Info lebih lanjut klik di bawah ini.
           </p>
-
           <Link to='/contact' className='btn'>
             Contact Me
           </Link>
