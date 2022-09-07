@@ -13,8 +13,8 @@ const ContactPage = () => {
             <div className='underline'></div>
           </div>
           <p>
-            Ingin bekerja sama, ngobrol, atau diskusi banyak hal terkait SEO dan
-            website? Bisa langsung email saya ke
+            Ingin bekerja sama, ngobrol, atau diskusi tentang SEO dan website?
+            Bisa langsung email saya ke
             <a href='mailto:email@email.com'> @andinianst93@gmail.com</a>
           </p>
           <p>
