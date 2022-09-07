@@ -5,7 +5,7 @@ import { PageHero } from '../components'
 import { works } from '../utils/constants'
 
 function Experience() {
-  const [jobs, setJobs] = useState(works)
+  const [jobs] = useState(works)
   const [value, setValue] = useState(0)
   const { company, dates, duties, title } = jobs[value]
   return (

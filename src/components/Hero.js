@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { useBlogContext } from '../context/blog_context'
 import andiniImg from '../assets/Andini-Anissa-Nasution-1024x1024.jpeg'
 const Hero = () => {
   return (

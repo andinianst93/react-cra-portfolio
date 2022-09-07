@@ -1,13 +1,5 @@
 import React from 'react'
-import {
-  Hero,
-  About,
-  Services,
-  LatestWorks,
-  Skills,
-  Timeline,
-  Contact,
-} from '../components'
+import { Hero, About, Services, LatestWorks, Contact } from '../components'
 
 const HomePage = () => {
   return (

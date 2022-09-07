@@ -4,7 +4,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa'
 import { works } from '../utils/constants'
 
 function LatestWorks() {
-  const [jobs, setJobs] = useState(works)
+  const [jobs] = useState(works)
   const [value, setValue] = useState(0)
   const { company, dates, duties, title } = jobs[value]
   return (
