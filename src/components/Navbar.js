@@ -11,9 +11,7 @@ const Nav = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <Link to='/'>
-            <h1 className='logo'>
-              Andini <span>Anissa</span>
-            </h1>
+            <h1 className='logo'>ADN</h1>
           </Link>
           <button type='button' className='nav-toggle' onClick={openSidebar}>
             <FaBars />
@@ -84,10 +82,7 @@ const NavContainer = styled.nav`
   }
   .logo {
     font-size: 2rem;
-    color: var(--clr-primary-9);
-  }
-  span {
-    color: var(--clr-primary-3);
+    color: var(--clr-primary-4);
   }
   @media (min-width: 992px) {
     .nav-toggle {

@@ -14,9 +14,7 @@ const Sidebar = () => {
         className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}
       >
         <div className='sidebar-header'>
-          <h1 className='logo'>
-            Andini <span>Anissa</span>
-          </h1>
+          <h1 className='logo'>ADN</h1>
           <button className='close-btn' onClick={closeSidebar}>
             <FaTimes />
           </button>
@@ -38,7 +36,7 @@ const Sidebar = () => {
             const { id, url, icon } = social
             return (
               <li key={id}>
-                <Link to={url}>{icon}</Link>
+                <a href={url}>{icon}</a>
               </li>
             )
           })}
@@ -72,10 +70,7 @@ const SidebarContainer = styled.div`
     justify-self: center;
     height: 40px;
     font-size: 2rem;
-    color: var(--clr-primary-9);
-  }
-  span {
-    color: var(--clr-primary-3);
+    color: var(--clr-primary-4);
   }
   .links {
     margin-bottom: 2rem;
