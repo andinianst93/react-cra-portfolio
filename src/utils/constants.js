@@ -66,7 +66,7 @@ export const services = [
     id: 1,
     icon: <FaCode />,
     title: 'web development',
-    text: 'Front-end web development untuk website seperti blog pribadi, profil perusahaan, dan website sejenis lainnya.',
+    text: 'Front-end web development menggunakan GatsbyJS dan headless CMS untuk website seperti blog pribadi, profil perusahaan, dan website sejenis lainnya.',
   },
   {
     id: 2,
