@@ -21,7 +21,7 @@ const About = () => {
               Andini Anissa adalah SEO Specialist dan SEO Content Writer.
               Sebagai SEO Andini percaya bahwa data yang baik akan menghasilkan
               keputusan yang baik, dan bahwa cara terbaik untuk membuat situs
-              yang sukses adalah dengan memenuhi kebutuhan user melalui{' '}
+              yang sukses adalah dengan memenuhi kebutuhan user melalui
               <i>cross-device experience</i>.
             </p>
             <p>
@@ -30,7 +30,8 @@ const About = () => {
               konten, dan konversi. Berbagai cara yang sudah Andini lakukan
               yakni melakukan riset keyword (SEMRush, Ahrefs, dan Google
               Trends), mengoptimasi on-page SEO, memperbaiki dan
-              mengidentifikasi permasalahan technical SEO, dan link building.
+              mengidentifikasi permasalahan technical SEO (Screaming Frogs dan
+              Integrity), dan link building.
             </p>
             <p>
               Selain SEO, Andini mampu membuat website dengan HTML, CSS,
