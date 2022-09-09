@@ -34,8 +34,9 @@ const About = () => {
             </p>
             <p>
               Selain SEO, Andini mampu membuat website dengan HTML, CSS,
-              Javascript (ES6), dan React (CRA dan GatsbyJS). Andini juga
-              memiliki dasar pengetahuan tentang Serverless Function - Netlify.
+              Javascript (ES6), React (CRA dan GatsbyJS), dan GraphQL. Andini
+              juga memiliki dasar pengetahuan tentang Serverless Function -
+              Netlify.
             </p>
           </div>
         </article>
@@ -96,5 +97,4 @@ const Wrapper = styled.section`
     border-radius: var(--radius);
   }
 `
-
 export default About
