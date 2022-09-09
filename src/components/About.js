@@ -62,8 +62,8 @@ const Wrapper = styled.section`
   .about-img {
     display: none;
   }
-  p{
-    color: var(--clr-primary-4)
+  p {
+    color: var(--clr-primary-4);
   }
   @media screen and (min-width: 992px) {
     .about-center {
@@ -80,21 +80,22 @@ const Wrapper = styled.section`
       align-self: center;
     }
     .hero-photo {
-    max-width: 35rem;
-    max-height: 55rem;
-    object-fit: cover;
-    border-radius: var(--radius);
-    position: relative;
-  }
+      max-width: 35rem;
+      max-height: 55rem;
+      object-fit: cover;
+      border-radius: var(--radius);
+      position: relative;
+    }
     .about-img::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 2rem;
-    right: -2rem;
-    border: 5px solid var(--clr-primary-5);
-    border-radius: var(--radius);
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 2rem;
+      right: -2rem;
+      border: 5px solid var(--clr-primary-5);
+      border-radius: var(--radius);
+    }
   }
 `
 export default About
