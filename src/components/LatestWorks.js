@@ -6,7 +6,7 @@ import { works } from '../utils/constants'
 function LatestWorks() {
   const [jobs] = useState(works)
   const [value, setValue] = useState(0)
-  const { company, dates, duties, title } = jobs[value]
+  const { company, duties, title } = jobs[value]
   return (
     <Wrapper className='section'>
       <div className='title'>
@@ -31,7 +31,6 @@ function LatestWorks() {
         <article className='job-info'>
           <h3>{title}</h3>
           <h4>{company}</h4>
-          <p className='job-date'>{dates}</p>
           {duties.map((duty, index) => {
             return (
               <div key={index} className='job-desc'>

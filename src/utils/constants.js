@@ -85,9 +85,8 @@ export const services = [
 export const works = [
   {
     id: '1',
-    order: 5,
+    order: 4,
     title: 'SEO Specialist',
-    dates: 'September 2021 - Maret 2022',
     duties: [
       'Membuat dan mengeksekusi strategi SEO berdasarkan Google Analytics dan Search Console.',
       'Menulis dan mengedit artikel yang SEO-friendly.',
@@ -98,17 +97,8 @@ export const works = [
   },
   {
     id: '2',
-    order: 4,
-    title: 'SEO Specialist',
-    dates: 'Januari 2022 - sekarang',
-    duties: ['philipmulyana.com (Apr 2022 - Jun 2022)'],
-    company: 'Freelance',
-  },
-  {
-    id: '3',
     order: 3,
     title: 'SEO Specialist',
-    dates: 'Desember 2019 - Mei 2022',
     duties: [
       'Berupaya mempertahankan trafik organik dengan memberikan keyword potensial kepada content writer.',
       'Membuat dan mengeksekusi strategi SEO berdasarkan Google Analytics dan Search Console.',
@@ -121,10 +111,9 @@ export const works = [
   },
 
   {
-    id: '4',
+    id: '3',
     order: 2,
     title: 'SEO Content Writer',
-    dates: 'Januari 2019 - April 2019',
     duties: [
       'Melakukan riset keyword.',
       'Membuat tiga artikel SEO per hari',
@@ -133,10 +122,9 @@ export const works = [
     company: 'JalanTikus',
   },
   {
-    id: '5',
+    id: '4',
     order: 1,
     title: 'Media Relations & SEO Content Writer',
-    dates: '2017 - 2019',
     duties: [
       'Media monitoring.',
       'Meliput dan membuat press release.',
