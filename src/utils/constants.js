@@ -10,7 +10,7 @@ import {
   FaTwitter,
   FaCode,
   FaLaptop,
-  FaMarker,
+  FaBlog,
 } from 'react-icons/fa'
 
 export const links = [
@@ -60,6 +60,11 @@ export const social = [
     url: 'https://www.instagram.com/andin1anst/?hl=en',
     icon: <FaInstagramSquare />,
   },
+  {
+    id: 5,
+    icon: <FaBlog />,
+    url: 'http://digiadn.com/',
+  },
 ]
 export const services = [
   {
@@ -79,7 +84,7 @@ export const services = [
 export const works = [
   {
     id: '1',
-    order: 4,
+    order: 5,
     title: 'SEO Specialist',
     duties: [
       'Membuat dan mengeksekusi strategi SEO berdasarkan Google Analytics dan Search Console.',
@@ -91,7 +96,7 @@ export const works = [
   },
   {
     id: '2',
-    order: 3,
+    order: 4,
     title: 'SEO Specialist',
     duties: [
       'Berupaya mempertahankan trafik organik dengan memberikan keyword potensial kepada content writer.',
@@ -106,7 +111,7 @@ export const works = [
 
   {
     id: '3',
-    order: 2,
+    order: 3,
     title: 'SEO Content Writer',
     duties: [
       'Melakukan riset keyword.',
@@ -117,7 +122,7 @@ export const works = [
   },
   {
     id: '4',
-    order: 1,
+    order: 2,
     title: 'Media Relations & SEO Content Writer',
     duties: [
       'Media monitoring.',
@@ -125,5 +130,16 @@ export const works = [
       'SEO Content Writer untuk MNC Update.',
     ],
     company: 'MNC Media',
+  },
+  {
+    id: '5',
+    order: 1,
+    title: 'SEO Specialist',
+    duties: [
+      'Melakukan riset keyword',
+      'Melakukan set up technical SEO',
+      'Membuat konten SEO',
+    ],
+    company: 'Philip Mulyana',
   },
 ]

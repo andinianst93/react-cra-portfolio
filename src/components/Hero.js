@@ -9,9 +9,14 @@ const Hero = () => {
         <div className='underline'></div>
         <h1>Halo, Saya Andini</h1>
         <h2>SEO Specialist</h2>
-        <Link to='/contact' className='btn'>
-          Hire Me
-        </Link>
+        <div className='btn-hero'>
+          <Link to='/contact' className='btn'>
+            Hire Me
+          </Link>
+          <a href='https://digiadn.com/' className='btn'>
+            Read Blog
+          </a>
+        </div>
       </article>
       <article className='hero-img'>
         <img src={andiniImg} alt='andini anissa' className='img' />
@@ -25,11 +30,21 @@ const Wrapper = styled.section`
   display: grid;
   align-items: center;
   place-items: center;
+  h1 {
+    color: var(--clr-grey-10);
+  }
+  h2 {
+    color: var(--clr-grey-10);
+  }
   .hero-img {
     display: none;
   }
   .btn {
     margin-top: 1.25rem;
+    margin-right: 1rem;
+  }
+  .btn-hero {
+    display: flex;
   }
   p {
     line-height: 2;
