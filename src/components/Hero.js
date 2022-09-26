@@ -8,7 +8,7 @@ const Hero = () => {
       <article>
         <div className='underline'></div>
         <h1>Halo, Saya Andini</h1>
-        <h2>Freelance GatsbyJS dev & SEO Specialist</h2>
+        <h2>SEO Specialist</h2>
         <Link to='/contact' className='btn'>
           Hire Me
         </Link>

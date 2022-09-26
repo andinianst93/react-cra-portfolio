@@ -13,15 +13,15 @@ const PageHero = ({ title }) => {
   )
 }
 const Wrapper = styled.section`
-  background: var(--clr-primary-2);
+  background: var(--clr-primary-1);
   width: 100%;
-  min-height: 20vh;
+  min-height: 15vh;
   display: flex;
   align-items: center;
 
-  color: var(--clr-green-1);
+  color: var(--clr-white);
   a {
-    color: var(--clr-green-1);
+    color: var(--clr-white);
     padding: 0.5rem;
     transition: var(--transition);
   }

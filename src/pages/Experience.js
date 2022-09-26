@@ -10,7 +10,7 @@ function Experience() {
   const { company, dates, duties, title } = jobs[value]
   return (
     <main>
-      <PageHero title='About'></PageHero>
+      <PageHero title='Experience'></PageHero>
       <Wrapper>
         <div className='title'>
           <h1>Experience</h1>

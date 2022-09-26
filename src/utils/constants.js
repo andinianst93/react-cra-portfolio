@@ -74,12 +74,6 @@ export const services = [
     title: 'SEO',
     text: 'Menawarkan jasa SEO untuk riset keyword, mengoptimasi on-page dan off-page, memperbaiki dan mengidentifikasi permasalahan technical SEO, audit, dan pelaporan.',
   },
-  {
-    id: 3,
-    icon: <FaMarker />,
-    title: 'SEO Content Writer',
-    text: 'Menawarkan jasa menulis artikel SEO untuk website media atau blog pribadi. Topiknya bisa film, finansial, teknologi, dan otomotif.',
-  },
 ]
 
 export const works = [
