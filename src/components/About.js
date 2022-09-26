@@ -18,11 +18,10 @@ const About = () => {
             <h2>about</h2>
             <div className='underline'></div>
             <p>
-              Andini Anissa adalah SEO Specialist dan SEO Content Writer.
-              Sebagai SEO Andini percaya bahwa data yang baik akan menghasilkan
-              keputusan yang baik, dan bahwa cara terbaik untuk membuat situs
-              yang sukses adalah dengan memenuhi kebutuhan user melalui
-              <i>cross-device experience</i>.
+              Andini Anissa adalah SEO Specialist. Sebagai SEO Andini percaya
+              bahwa data yang baik akan menghasilkan keputusan yang baik, dan
+              bahwa cara terbaik untuk membuat situs yang sukses adalah dengan
+              memenuhi kebutuhan user melalui <i>cross-device experience</i>.
             </p>
             <p>
               Pengalaman saya sebagai SEO membuat saya mampu untuk
