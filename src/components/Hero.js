@@ -14,7 +14,7 @@ const Hero = () => {
             Hire Me
           </Link>
           <a href='https://digiadn.com/' className='btn'>
-            Read Blog
+            Blog
           </a>
         </div>
       </article>
