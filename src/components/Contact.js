@@ -14,7 +14,7 @@ const Contact = () => {
           <p className='text'>
             Ingin bekerja sama, ngobrol, atau diskusi tentang SEO dan website?
             Bisa langsung menghubungi saya lewat email atau media sosial. Info
-            lebih lanjut klik di bawah ini.
+            lebih lanjut kamu bisa klik link di bawah ini.
           </p>
           <Link to='/contact' className='btn'>
             Contact Me
