@@ -21,7 +21,8 @@ const About = () => {
               Andini Anissa adalah SEO Specialist. Sebagai SEO Andini percaya
               bahwa data yang baik akan menghasilkan keputusan yang baik, dan
               bahwa cara terbaik untuk membuat situs yang sukses adalah dengan
-              memenuhi kebutuhan user melalui <i>cross-device experience</i>.
+              memenuhi kebutuhan audience melalui teknologi web paling modern
+              dan konten yang paling relevan.
             </p>
             <p>
               Pengalaman saya sebagai SEO membuat saya mampu untuk
