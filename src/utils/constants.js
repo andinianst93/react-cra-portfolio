@@ -83,8 +83,40 @@ export const services = [
 
 export const works = [
   {
-    id: '1',
-    order: 5,
+    id: '7',
+    order: 1,
+    title: 'SEO Specialist',
+    duties: [
+      'Melakukan optimasi SEO on page',
+      'Melakukan riset taksonomi',
+      'Kolaborasi dengan tim editorial dalam membuat artikel untuk blog dan edukasi',
+    ],
+    company: 'HSB',
+  },
+  {
+    id: '6',
+    order: 2,
+    title: 'SEO Trainer',
+    duties: [
+      'Memberikan training SEO untuk tim editorial dan media sosial',
+      'Materi yang dibawakan meliputi: dasar digital marketing, bagaimana cara kerja mesin pencari, technical SEO, on page SEO, Google E-A-T, off page SEO, GA4, GSC, dll',
+    ],
+    company: 'The Conversation Indonesia',
+  },
+  {
+    id: '5',
+    order: 3,
+    title: 'SEO Specialist',
+    duties: [
+      'Melakukan riset keyword',
+      'Melakukan set up technical SEO',
+      'Membuat konten SEO',
+    ],
+    company: 'Philip Mulyana',
+  },
+  {
+    id: '4',
+    order: 4,
     title: 'SEO Specialist',
     duties: [
       'Membuat dan mengeksekusi strategi SEO berdasarkan Google Analytics dan Search Console.',
@@ -95,8 +127,8 @@ export const works = [
     company: 'CekPremi',
   },
   {
-    id: '2',
-    order: 4,
+    id: '3',
+    order: 5,
     title: 'SEO Specialist',
     duties: [
       'Berupaya mempertahankan trafik organik dengan memberikan keyword potensial kepada content writer.',
@@ -110,8 +142,8 @@ export const works = [
   },
 
   {
-    id: '3',
-    order: 3,
+    id: '2',
+    order: 6,
     title: 'SEO Content Writer',
     duties: [
       'Melakukan riset keyword.',
@@ -121,8 +153,8 @@ export const works = [
     company: 'JalanTikus',
   },
   {
-    id: '4',
-    order: 2,
+    id: '1',
+    order: 7,
     title: 'Media Relations & SEO Content Writer',
     duties: [
       'Media monitoring.',
@@ -130,16 +162,5 @@ export const works = [
       'SEO Content Writer untuk MNC Update.',
     ],
     company: 'MNC Media',
-  },
-  {
-    id: '5',
-    order: 1,
-    title: 'SEO Specialist',
-    duties: [
-      'Melakukan riset keyword',
-      'Melakukan set up technical SEO',
-      'Membuat konten SEO',
-    ],
-    company: 'Philip Mulyana',
   },
 ]
